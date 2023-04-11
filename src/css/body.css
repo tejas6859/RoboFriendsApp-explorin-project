@@ -1,0 +1,43 @@
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  /* width: 100vw; */
+  background: linear-gradient(90deg, #dd9cc8, #0f6781);
+}
+.heading {
+  color: #af0000;
+  /* font-family: "Kaushan Script"; */
+  font-family: "Permanent Marker";
+}
+.search-bar {
+  background: linear-gradient(90deg, #dd9c24, pink);
+  height: 180px;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#input {
+  width: 200px;
+  border-radius: 7px;
+  height: 28px;
+}
+.cards-container {
+  display: flex;
+  background: linear-gradient(90deg, #dd9c24, pink);
+  max-width: 100%;
+  /* border: 2px solid red; */
+}
+.box {
+  border: 2px solid black;
+  margin: 15px;
+}
+.dark {
+  text-align: center;
+}
+.normal-font {
+  text-align: center;
+}
